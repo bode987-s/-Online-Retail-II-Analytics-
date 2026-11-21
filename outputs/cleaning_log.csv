@@ -1,0 +1,9 @@
+step,rows_after,rows_removed,note
+0. Raw rows (both sheets combined),1067371,,
+1. Remove exact duplicates,1033036,34335.0,sheet overlap + repeated rows
+2a. Non-cancelled lines,1013932,19104.0,cancellations moved to df_cancel
+2b. Quantity > 0 and Price > 0,1007913,6019.0,adjustments / write-offs
+2c. Remove non-product stock codes,1003690,4223.0,"postage, fees, manual"
+2d. Remove non-sale invoice numbers,1003689,1.0,e.g. A563185 bad debt
+2e. Remove fully reversed giant orders,1003687,2.0,order + matching cancellation
+3. Outliers flagged and capped (no rows removed),1003687,0.0,"IsOutlier, IsAnomaly, *_capped"
