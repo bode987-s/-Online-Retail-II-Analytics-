@@ -1,0 +1,11 @@
+kpi,value
+Total revenue (£),19413405.640000008
+Invoices,39521.0
+Average order value (£),491.2174702057136
+Median order value (£),301.34
+Registered customers,5853.0
+Guest share of invoices,0.07396067913261305
+Cancellation rate (lines),0.01754099179038515
+Cancellation value (% of revenue),0.02426840188355534
+High-value threshold (£),301.34
+Best model: Decision Tree (test accuracy),0.8387096774193549
